@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42936702-2EE5-8EF9-08CA-F2F964300255" name="Movies_categories">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:46:18 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="movie_category_id" id="9108E999-678C-4950-1DF7-8B88FF5A4AA8">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:46:27 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F02A08D0-674A-CA11-6C44-3ECF54D2025C" name="Movies_categories PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:46:44 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9108E999-678C-4950-1DF7-8B88FF5A4AA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

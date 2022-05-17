@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB3A4AB1-B6E4-2F27-F9F7-18303508B433" name="Series_actors">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:47:59 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Series_actor_id" id="43F3A0FF-A526-3482-E038-15E9AABFBEA7">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:48:08 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4F9B07A-487B-73A9-5455-604EE205C743" name="Series_actors PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:50:12 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43F3A0FF-A526-3482-E038-15E9AABFBEA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5220C2E4-DB20-C913-8C16-E7D397DDFE2A" name="Actors">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:39:54 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="actor_id" id="BCCD9CF8-2190-226A-EF44-128544621369">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:40:00 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="88D26AAF-16B8-B17E-E0DD-B48405572CB3">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:40:11 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4F59274-6789-D459-8DA8-26AA5CCBCF8C" name="Actors PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 08:40:09 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BCCD9CF8-2190-226A-EF44-128544621369</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
