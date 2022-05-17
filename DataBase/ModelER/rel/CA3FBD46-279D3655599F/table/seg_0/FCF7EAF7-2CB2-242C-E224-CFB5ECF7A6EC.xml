@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCF7EAF7-2CB2-242C-E224-CFB5ECF7A6EC" name="Series_categories">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="series_category_id" id="4ED5CAA4-C44A-0C71-1AF5-FB1E0B0DFA9F">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:43:58 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category_id" id="CCBDE4E3-B690-62E2-022F-8E8A757DBA1C">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0717E065-7EAE-113E-4FDD-23AAA7F0248F" referredColumn="FDDFF993-E4DF-C2EC-A7AA-47A2645CE39A"/>
+</associations>
+</Column>
+<Column name="series_id" id="EA67DD0E-9345-78EF-8010-FDE49F03CBAF">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="516E26B6-0218-E546-154E-B7D419246E77" referredColumn="425B055A-A425-1841-B58F-DB5B3F8E599F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1E83BB6-D17A-C5BE-4D16-419A81AD982F" name="Series_categories_PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ED5CAA4-C44A-0C71-1AF5-FB1E0B0DFA9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17AE7A24-4E2A-853E-A78F-608BD5ECFA07" name="Series_categories_Categories_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>EBB93F9C-3313-1762-D471-D644F2DDAC0D</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCBDE4E3-B690-62E2-022F-8E8A757DBA1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F3083D7-92BB-ECD9-7865-93B06D101618" name="Series_categories_Series_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>EBB93F9C-3313-1762-D471-D644F2DDAC0D</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA67DD0E-9345-78EF-8010-FDE49F03CBAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

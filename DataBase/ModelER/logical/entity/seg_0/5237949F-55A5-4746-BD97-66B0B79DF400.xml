@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B352EABA-79ED-00DB-6AC5-0153A48E5259" name="Seasons">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5237949F-55A5-4746-BD97-66B0B79DF400" name="Series reviews">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:40:37 UTC</createdTime>
+<createdTime>2022-05-17 12:34:30 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="season id" id="C5D108FB-C38A-CD3D-1590-5A06C81A1F2E">
+<Attribute name="series review id" id="C6E46C75-3BA5-7CC8-0CFF-92AA98AA369E">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:40:55 UTC</createdTime>
+<createdTime>2022-05-17 12:34:44 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="555A4B85-7821-9ED8-AC31-3BF820351604">
+<Attribute name="description" id="EAA362FF-0322-E640-3D5D-1DC082027E59">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:41:06 UTC</createdTime>
+<createdTime>2022-05-17 12:34:54 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -37,13 +37,27 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="series id" id="ECC6903C-D6A7-4089-44CB-D23C05423456">
+<Attribute name="user id" id="A9410E6A-08FF-9B99-A382-1173E18FA6D3">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 09:47:04 UTC</createdTime>
-<generatorID>266ACAD5-CBDC-16E4-16C4-E875D01218C2</generatorID>
+<createdTime>2022-05-17 12:36:19 UTC</createdTime>
+<generatorID>8292D40C-77A0-DF6A-D616-271FC0C2B297</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<referedAttribute>1771F16E-9168-C463-EBF0-588A3E18755A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="series id" id="CF50DB9E-D041-BD0E-6F24-A3854C8C6A56">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:36:42 UTC</createdTime>
+<generatorID>4CDF7360-10DD-6F34-E2F0-53EC7448C910</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -56,16 +70,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B567D435-E1AA-3B10-615F-ED707B92FE59" name="Seasons PK">
+<identifier id="C8354E86-77D5-DC5E-BEB3-9F5A4CDE53DE" name="Series_reviews_PK">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:41:04 UTC</createdTime>
+<createdTime>2022-05-17 12:34:52 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C5D108FB-C38A-CD3D-1590-5A06C81A1F2E</attributeRef>
+<attributeRef>C6E46C75-3BA5-7CC8-0CFF-92AA98AA369E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

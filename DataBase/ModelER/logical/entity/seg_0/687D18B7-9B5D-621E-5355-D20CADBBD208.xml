@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B352EABA-79ED-00DB-6AC5-0153A48E5259" name="Seasons">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="687D18B7-9B5D-621E-5355-D20CADBBD208" name="Movies reviews">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:40:37 UTC</createdTime>
+<createdTime>2022-05-17 12:33:48 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="season id" id="C5D108FB-C38A-CD3D-1590-5A06C81A1F2E">
+<Attribute name="movie review id" id="35270296-4B23-98DF-3E64-2DE0E7A3EBC9">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:40:55 UTC</createdTime>
+<createdTime>2022-05-17 12:33:58 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="555A4B85-7821-9ED8-AC31-3BF820351604">
+<Attribute name="description" id="8B74CEA0-C54D-34BE-293D-AD4EBC4AF6B3">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:41:06 UTC</createdTime>
+<createdTime>2022-05-17 12:34:12 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -37,18 +37,32 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="series id" id="ECC6903C-D6A7-4089-44CB-D23C05423456">
+<Attribute name="user id" id="6A645620-945D-3AA5-502E-5A0003B8AECD">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 09:47:04 UTC</createdTime>
-<generatorID>266ACAD5-CBDC-16E4-16C4-E875D01218C2</generatorID>
+<createdTime>2022-05-17 12:35:42 UTC</createdTime>
+<generatorID>E54A6881-E033-23F2-38E7-9E3E6E8B6325</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
-<referedAttribute>CB7E69F0-87EF-E865-B88D-299B759F871C</referedAttribute>
+<referedAttribute>1771F16E-9168-C463-EBF0-588A3E18755A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie id" id="4EE39EB0-D34C-7E7D-334C-EEE57761A5B8">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:36:37 UTC</createdTime>
+<generatorID>9FA3A04D-E6F7-22C9-5420-2C82E003A312</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<referedAttribute>98E56B4D-2C8B-661D-686F-674F77BB4154</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -56,16 +70,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B567D435-E1AA-3B10-615F-ED707B92FE59" name="Seasons PK">
+<identifier id="726F863A-77E2-5DF5-5F6A-8CF698CC1405" name="Movies_reviews_PK">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:41:04 UTC</createdTime>
+<createdTime>2022-05-17 12:34:09 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C5D108FB-C38A-CD3D-1590-5A06C81A1F2E</attributeRef>
+<attributeRef>35270296-4B23-98DF-3E64-2DE0E7A3EBC9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

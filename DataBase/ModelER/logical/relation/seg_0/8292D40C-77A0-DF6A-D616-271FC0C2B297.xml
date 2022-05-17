@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Episodes Seasons FK" directorySegmentName="seg_0" id="07883F5E-7B70-A1D3-2CEF-30DB6E519998">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Series reviews Users FK" directorySegmentName="seg_0" id="8292D40C-77A0-DF6A-D616-271FC0C2B297">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 09:48:04 UTC</createdTime>
+<createdTime>2022-05-17 12:36:19 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
-<sourcePk>B567D435-E1AA-3B10-615F-ED707B92FE59</sourcePk>
+<sourcePk>CF000D34-D741-C89B-DBAD-416696362997</sourcePk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>B352EABA-79ED-00DB-6AC5-0153A48E5259</sourceEntity>
+<sourceEntity>EF860D45-1140-08D3-CBBB-482E99FBA932</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0515E1C4-544B-9819-E0D4-696EC612DE3E</targetEntity>
+<targetEntity>5237949F-55A5-4746-BD97-66B0B79DF400</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

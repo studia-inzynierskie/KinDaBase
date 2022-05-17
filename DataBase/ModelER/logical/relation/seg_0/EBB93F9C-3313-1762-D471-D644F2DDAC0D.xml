@@ -4,10 +4,9 @@
 <createdTime>2022-05-17 09:26:01 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
-<item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
 <sourcePk>1E1B2EEB-A609-7A0B-33DF-5F5968A99F20</sourcePk>
-<targetPk>1E20C0D8-B803-951B-D60B-7015BEE650D5</targetPk>
 <identifying>false</identifying>
 <nameOnSource>category_id</nameOnSource>
 <nameOnTarget>series_id</nameOnTarget>
@@ -19,4 +18,30 @@
 <targetEntity>912E3313-DEDF-F919-9CC2-AFD42DBD9204</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="category id" id="6BE3C65D-64DF-8167-27ED-1FA87F3E33D7">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:48:41 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="series id" id="8A43CED0-8A40-FDCF-9EC9-B24CCA7ABBE4">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:48:41 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
 </Relation>

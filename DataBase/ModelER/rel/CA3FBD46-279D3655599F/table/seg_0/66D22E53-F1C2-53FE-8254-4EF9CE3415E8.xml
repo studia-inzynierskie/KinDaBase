@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66D22E53-F1C2-53FE-8254-4EF9CE3415E8" name="Seasons">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>B352EABA-79ED-00DB-6AC5-0153A48E5259</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="season_id" id="3B70AA00-6EE0-894A-335A-7A9DFDB340A1">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>C5D108FB-C38A-CD3D-1590-5A06C81A1F2E</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="82AA3CD9-02F0-F0C2-1437-8D58453DE599">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>555A4B85-7821-9ED8-AC31-3BF820351604</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="series_id" id="D401E869-14F7-5D74-FA7A-E549F8C1133A">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>ECC6903C-D6A7-4089-44CB-D23C05423456</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AA04A1C-6A09-23E4-A3F7-2F2A78515177" referredColumn="425B055A-A425-1841-B58F-DB5B3F8E599F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C1F5FDF-864E-59AE-0298-EBF55B1B5262" name="Seasons_PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>B567D435-E1AA-3B10-615F-ED707B92FE59</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B70AA00-6EE0-894A-335A-7A9DFDB340A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B32FD3E-7456-D636-9957-652D491D2ED6" name="Seasons_Series_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>266ACAD5-CBDC-16E4-16C4-E875D01218C2</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D401E869-14F7-5D74-FA7A-E549F8C1133A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

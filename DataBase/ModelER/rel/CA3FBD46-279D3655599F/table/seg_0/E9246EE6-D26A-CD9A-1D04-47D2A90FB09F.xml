@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9246EE6-D26A-CD9A-1D04-47D2A90FB09F" name="Series_reviews">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>5237949F-55A5-4746-BD97-66B0B79DF400</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="series_review_id" id="1308DA6B-7639-925A-2690-0594045801CB">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>C6E46C75-3BA5-7CC8-0CFF-92AA98AA369E</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="68E03CE8-774E-BCD5-0AC0-E6793B7A41CF">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>EAA362FF-0322-E640-3D5D-1DC082027E59</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="8924588F-CAF8-16DD-5EA2-EFED683249A2">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>A9410E6A-08FF-9B99-A382-1173E18FA6D3</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2C54430-DF2B-5DB7-D343-F576940F7C4E" referredColumn="22393A01-7373-63C9-9CF7-FAA201C72AAE"/>
+</associations>
+</Column>
+<Column name="series_id" id="7736CEED-A30D-3E25-CEB0-71C7A524C88B">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>CF50DB9E-D041-BD0E-6F24-A3854C8C6A56</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79345959-F7B2-A472-BFB3-E77CAF3D6B5A" referredColumn="425B055A-A425-1841-B58F-DB5B3F8E599F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2CA517C-683A-3C76-7C09-C385A976B381" name="Series_reviews_PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>C8354E86-77D5-DC5E-BEB3-9F5A4CDE53DE</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1308DA6B-7639-925A-2690-0594045801CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5D1EF46-425E-85D8-8945-6B5AE081970C" name="Series_reviews_Users_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>8292D40C-77A0-DF6A-D616-271FC0C2B297</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8924588F-CAF8-16DD-5EA2-EFED683249A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE5FFA16-79D3-23F2-91A2-E0162942F6F0" name="Series_reviews_Series_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>4CDF7360-10DD-6F34-E2F0-53EC7448C910</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7736CEED-A30D-3E25-CEB0-71C7A524C88B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

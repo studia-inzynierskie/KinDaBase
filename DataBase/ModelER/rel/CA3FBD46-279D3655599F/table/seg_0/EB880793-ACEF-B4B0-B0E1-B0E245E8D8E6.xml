@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB880793-ACEF-B4B0-B0E1-B0E245E8D8E6" name="Series_actors">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="series_actor_id" id="7E175EDD-A428-36CC-20A3-46FA07651491">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:44:27 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actor_id" id="77DE675B-CD4F-4A8B-52EB-04A7F687702E">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85F5728D-54D2-14D7-E275-E7B131E37BAD" referredColumn="218809A8-207B-417A-FEFF-DB81F4C56B43"/>
+</associations>
+</Column>
+<Column name="series_id" id="A7A020DF-FCF1-AAF8-0497-8856C5869D43">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC69095E-7A37-0BD6-C0D6-96FC91E3E933" referredColumn="425B055A-A425-1841-B58F-DB5B3F8E599F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B5A1632-3E26-CC8D-F65C-127F4AD37506" name="Series_actors_PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E175EDD-A428-36CC-20A3-46FA07651491"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26F6BE3F-037C-8861-770B-FDDCFCBF27B5" name="Series_actors_Actors_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>CD28EB3A-A663-214A-265A-4E8B8A12D566</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77DE675B-CD4F-4A8B-52EB-04A7F687702E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D7414BA-54F0-14E4-97DE-3038C4238064" name="Series_actors_Series_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>CD28EB3A-A663-214A-265A-4E8B8A12D566</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A020DF-FCF1-AAF8-0497-8856C5869D43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
