@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BF72B12-209E-703D-7D8A-99B3E40248DF" name="Series_actors">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Actors_actor_id" id="1CC3F388-1549-47A2-EC1D-BD28AD14AEBF">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7797E3A-56B5-7187-6970-C84BD7AE818B" referredColumn="1BE1254E-FDA3-2EBF-F61E-56AD97EB0959"/>
+</associations>
+</Column>
+<Column name="Series_series_id" id="F6F1F9DD-4CC2-FDA7-2F88-3C3A5C840E33">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1B74356-1674-8BE4-5D8A-1D3D6C1D8F3D" referredColumn="09CF3089-CB85-ADA5-E9E9-13DCB894EC63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56A47F89-55F5-1961-72ED-D4147CA21D48" name="Series_actors_PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CC3F388-1549-47A2-EC1D-BD28AD14AEBF"/>
+<colUsage columnID="F6F1F9DD-4CC2-FDA7-2F88-3C3A5C840E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="067308DE-D010-5BDF-8CF8-BEBB43DF090E" name="Series_actors_Actors_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<generatorID>CD28EB3A-A663-214A-265A-4E8B8A12D566</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CC3F388-1549-47A2-EC1D-BD28AD14AEBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F14219F3-6CC6-D93B-3DC5-2A537250CD0A" name="Series_actors_Series_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<generatorID>CD28EB3A-A663-214A-265A-4E8B8A12D566</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6F1F9DD-4CC2-FDA7-2F88-3C3A5C840E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

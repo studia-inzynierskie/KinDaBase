@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0515E1C4-544B-9819-E0D4-696EC612DE3E" name="Episodes">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1259E3B3-0290-C998-24B4-110A95F67C88" name="Reviews">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:41:44 UTC</createdTime>
+<createdTime>2022-05-17 09:49:00 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="episode_id" id="A8F599A4-5798-B243-7D2B-6E65B6396E75">
+<Attribute name="review_id" id="EAAB02A0-FF0F-45F4-21C4-1DC4D65F63BE">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:41:54 UTC</createdTime>
+<createdTime>2022-05-17 09:49:09 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="F983FD63-A5CE-7D3A-B3ED-B50D9888A6BC">
+<Attribute name="description" id="6096FC2E-40FC-05A6-6CE5-0E564E7D9F55">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:42:13 UTC</createdTime>
+<createdTime>2022-05-17 09:49:21 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
@@ -37,32 +37,46 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="season_id" id="53B1197C-9889-A69D-5C49-264DD718AFBE">
+<Attribute name="user_id" id="264832A9-38ED-72AA-C6EE-7E2D31BB93F9">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 09:48:04 UTC</createdTime>
-<generatorID>07883F5E-7B70-A1D3-2CEF-30DB6E519998</generatorID>
+<createdTime>2022-05-17 09:50:08 UTC</createdTime>
+<generatorID>6AD62946-95A3-272A-004B-8EB470A9CC85</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
 </engineerTo>
-<referedAttribute>C5D108FB-C38A-CD3D-1590-5A06C81A1F2E</referedAttribute>
+<referedAttribute>1771F16E-9168-C463-EBF0-588A3E18755A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="series_id" id="DC92004A-8264-C524-0445-387F27B3E907">
+<Attribute name="movie_id" id="5DC90C4B-E574-0D84-F0A4-1660FECC0DC3">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 09:48:04 UTC</createdTime>
-<generatorID>07883F5E-7B70-A1D3-2CEF-30DB6E519998</generatorID>
+<createdTime>2022-05-17 09:54:17 UTC</createdTime>
+<generatorID>BEFDCD82-6AC1-D8DB-464A-40F90122BEA6</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
 </engineerTo>
-<referedAttribute>ECC6903C-D6A7-4089-44CB-D23C05423456</referedAttribute>
+<referedAttribute>98E56B4D-2C8B-661D-686F-674F77BB4154</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="series_id" id="43721387-3085-D94E-75BB-C4710673529A">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:55:16 UTC</createdTime>
+<generatorID>5C46CD79-544C-3EF0-59D8-C63D2496FE04</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
+</engineerTo>
+<referedAttribute>CB7E69F0-87EF-E865-B88D-299B759F871C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -70,18 +84,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A7D825F4-2E5F-BAB5-AF6E-032299BAAEC6" name="Episodes PK">
+<identifier id="4AF02CAE-D63A-D0CF-E1F1-659AA32B8646" name="Reviews PK">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 08:42:02 UTC</createdTime>
+<createdTime>2022-05-17 09:49:19 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A8F599A4-5798-B243-7D2B-6E65B6396E75</attributeRef>
-<attributeRef>53B1197C-9889-A69D-5C49-264DD718AFBE</attributeRef>
-<attributeRef>DC92004A-8264-C524-0445-387F27B3E907</attributeRef>
+<attributeRef>EAAB02A0-FF0F-45F4-21C4-1DC4D65F63BE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

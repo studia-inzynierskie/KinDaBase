@@ -4,7 +4,7 @@
 <createdTime>2022-05-17 08:40:37 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
-<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+<item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2022-05-17 08:40:55 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
-<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+<item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,13 +32,27 @@
 <createdTime>2022-05-17 08:41:06 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
-<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+<item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="series_id" id="ECC6903C-D6A7-4089-44CB-D23C05423456">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:47:04 UTC</createdTime>
+<generatorID>266ACAD5-CBDC-16E4-16C4-E875D01218C2</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
+</engineerTo>
+<referedAttribute>CB7E69F0-87EF-E865-B88D-299B759F871C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -47,11 +61,12 @@
 <createdTime>2022-05-17 08:41:04 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
-<item key="253DAD4B-25B8-212B-929B-122C76A99F46" value="true"/>
+<item key="FAD663B8-C5B9-ED75-D58A-9494E5FCE8F8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C5D108FB-C38A-CD3D-1590-5A06C81A1F2E</attributeRef>
+<attributeRef>ECC6903C-D6A7-4089-44CB-D23C05423456</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9A20771-0142-A4E7-A160-622EFB70CCD3" name="Movies_actors">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Actors_actor_id" id="51A61FF8-15D6-8DF2-16B7-DC4D34F552E0">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD9BDE30-C25F-2255-14DF-9E1ED0A6FBD7" referredColumn="1BE1254E-FDA3-2EBF-F61E-56AD97EB0959"/>
+</associations>
+</Column>
+<Column name="Movies_movie_id" id="441770BE-B4BB-D591-1D01-A555A6B5F26D">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D8482D9-5792-CC72-60EE-DCDE14ADD993" referredColumn="17813A76-62D3-C871-FBD9-80770B401459"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C563925A-604B-3775-599E-47F1763B4F9B" name="Movies_actors_PK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51A61FF8-15D6-8DF2-16B7-DC4D34F552E0"/>
+<colUsage columnID="441770BE-B4BB-D591-1D01-A555A6B5F26D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CA50723-8DC1-5E32-F5E2-D0CA124ABFB4" name="Movies_actors_Actors_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<generatorID>ECE01C18-E6FB-4232-0314-2C977B62A993</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51A61FF8-15D6-8DF2-16B7-DC4D34F552E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B39D781-DF7E-7E44-8713-44616FEB8F6F" name="Movies_actors_Movies_FK">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 09:56:39 UTC</createdTime>
+<generatorID>ECE01C18-E6FB-4232-0314-2C977B62A993</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="441770BE-B4BB-D591-1D01-A555A6B5F26D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
