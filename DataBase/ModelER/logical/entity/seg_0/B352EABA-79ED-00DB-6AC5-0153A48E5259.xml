@@ -54,6 +54,34 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="episodes" id="32520B97-97A0-129B-295A-9ED48AEE8A47">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>E9B2197B-597B-9A5B-AF4A-0AA303E5948D</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="105FD7CA-0B52-76A1-5D7A-4C2E0395C4C6">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>ADD16B08-6283-E46A-57E1-16EE089A766A</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B567D435-E1AA-3B10-615F-ED707B92FE59" name="Seasons PK">

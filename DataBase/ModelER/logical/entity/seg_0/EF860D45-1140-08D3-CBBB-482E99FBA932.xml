@@ -37,6 +37,34 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="D0EC368E-AAE0-9AAF-3B3C-36C8881D4185">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>80DDB8D5-B38E-C0DD-12C4-D28DDAC4E444</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="F2EEA9E9-D04F-44D4-12DB-969C3515811B">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>BEF0F967-E602-50C0-5BA5-2D915C22DDD1</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>

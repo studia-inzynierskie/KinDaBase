@@ -34,7 +34,6 @@
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,7 +48,6 @@
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -71,6 +69,35 @@
 <dataTypePrecision>2</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth date" id="B2F59FDE-3D8C-9B2F-FB29-0811384EBE25">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>6F2AF506-078B-F1ED-C5A4-D6475486DF09</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sex" id="609220A8-3D24-F38A-5664-16A27393D1B8">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>E95681A4-4314-2225-0C7D-B659DD263B4D</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

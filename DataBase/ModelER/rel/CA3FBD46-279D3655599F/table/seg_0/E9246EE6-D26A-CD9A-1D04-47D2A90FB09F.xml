@@ -19,18 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="description" id="68E03CE8-774E-BCD5-0AC0-E6793B7A41CF">
-<createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>EAA362FF-0322-E640-3D5D-1DC082027E59</generatorID>
-<ownerDesignName>ModelER</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000 CHAR</dataTypeSize>
-<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="user_id" id="8924588F-CAF8-16DD-5EA2-EFED683249A2">
 <createdBy>HOME</createdBy>
 <createdTime>2022-05-17 12:41:10 UTC</createdTime>
@@ -60,6 +48,29 @@
 <associations>
 <colAssociation fkAssociation="79345959-F7B2-A472-BFB3-E77CAF3D6B5A" referredColumn="425B055A-A425-1841-B58F-DB5B3F8E599F"/>
 </associations>
+</Column>
+<Column name="rating" id="EDA970E1-9346-642E-E273-FABA3C9DEE1C">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:29:01 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="68E03CE8-774E-BCD5-0AC0-E6793B7A41CF">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>EAA362FF-0322-E640-3D5D-1DC082027E59</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

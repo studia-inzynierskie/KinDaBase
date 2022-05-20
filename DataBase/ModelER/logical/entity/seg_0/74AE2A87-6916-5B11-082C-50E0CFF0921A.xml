@@ -40,6 +40,96 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="rating" id="E6E20549-15B7-AB22-EC7D-70AB65C7F365">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>42099BD6-3AC6-A9EF-2609-6E60EE70EB98</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="premiere date" id="501539D6-0C9A-D7F3-59D3-233547981B67">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>D6831C94-C2B0-21A5-0039-C834F4D2D61B</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="0129F52A-0B4F-556C-E6F3-EBEA56006BC8">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>6EA7DE5D-EAF3-39CC-66A3-A97036C88622</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="56A1298E-FF0E-7B7A-6FDB-40AEC9D26DC7">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>B280CDA2-4565-F28D-A825-BF5329E4C13C</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="director" id="5B297822-A39A-C559-DE01-EB12773C0323">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>3A8DD12A-9553-B7E6-5B43-81724CF50C85</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scenario" id="73F793F5-908F-D5AD-4B65-D17B370ADF93">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>14BF7B97-2028-DE1C-27F1-0FC712D0028A</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6B4856D9-28AF-7F1B-256C-36E2C7A80D83" name="Movies PK">

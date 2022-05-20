@@ -31,6 +31,78 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="rating" id="42099BD6-3AC6-A9EF-2609-6E60EE70EB98">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:38:29 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="premiere_date" id="D6831C94-C2B0-21A5-0039-C834F4D2D61B">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:39:24 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="6EA7DE5D-EAF3-39CC-66A3-A97036C88622">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:39:45 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="B280CDA2-4565-F28D-A825-BF5329E4C13C">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:40:50 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="director" id="3A8DD12A-9553-B7E6-5B43-81724CF50C85">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:41:44 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="scenario" id="14BF7B97-2028-DE1C-27F1-0FC712D0028A">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:42:27 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="FCB4D185-7229-0A9A-ED55-E3DBE924531E" name="Movies_PK">

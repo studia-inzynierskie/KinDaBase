@@ -31,6 +31,75 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="rating" id="BE60CDBB-6D4F-59F7-359D-548FBA79AFA8">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:44:11 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="starts_date" id="B4E45612-5085-2CE8-B7DA-705D47E81473">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:44:11 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ends_date" id="71C08C95-48D9-16BF-3678-59A2C8739C7B">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:44:21 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="272FD947-9E64-02B6-A47D-A229E5D4F518">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:44:11 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="AC0BA26C-A643-9530-EDB3-F842101F9B99">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:44:11 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seasons" id="D5ED5301-1A53-3EFB-E59D-791F59314EF5">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:44:46 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CAA22E92-B1C7-5A74-CBAE-3D4ED4DEC643" name="Series_PK">

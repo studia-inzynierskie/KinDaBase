@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Actors_reviews_Users_FK" directorySegmentName="seg_0" id="4874A1A9-79CE-5383-098A-5609E926AC99">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>FE5D80F1-006C-2E1C-BD55-3DD2DBFD77A5</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<sourcePk>CF000D34-D741-C89B-DBAD-416696362997</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF860D45-1140-08D3-CBBB-482E99FBA932</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A161928-7CDD-97F7-AB71-667BCF515CDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

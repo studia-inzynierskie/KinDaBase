@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5237949F-55A5-4746-BD97-66B0B79DF400" name="Series reviews">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A161928-7CDD-97F7-AB71-667BCF515CDC" name="Actors reviews">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:34:30 UTC</createdTime>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>07B707D0-AC8F-C012-9DAD-FC733D921B8E</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="series review id" id="C6E46C75-3BA5-7CC8-0CFF-92AA98AA369E">
+<Attribute name="actor review id" id="0987A69E-0305-8B4C-201E-58FE4646A762">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:34:44 UTC</createdTime>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>E069F795-43EB-278C-3012-DE8F2A9FA38A</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -27,9 +29,51 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="description" id="EAA362FF-0322-E640-3D5D-1DC082027E59">
+<Attribute name="actor id" id="BDA09E73-AD5D-BE5A-FE64-E93EC9B1420E">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:34:54 UTC</createdTime>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>79FFBD33-064F-5005-7F79-BF51FB441BF3</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<referedAttribute>BCCD9CF8-2190-226A-EF44-128544621369</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user id" id="4A8D774A-CBD7-20FD-B835-803A51B3E187">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>4874A1A9-79CE-5383-098A-5609E926AC99</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<referedAttribute>1771F16E-9168-C463-EBF0-588A3E18755A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="278DD438-C585-4F4F-335D-5289F3BACF89">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>18AD0F6E-2C64-3B61-FF9B-D20DBF4AD155</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<engineerTo>
+<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="6D209C31-C8F0-1CFF-B8AD-39C52908509B">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>322631CC-88EB-9F77-E6A2-E7A1B129E403</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
@@ -41,59 +85,19 @@
 <dataTypeSize>1000 CHAR</dataTypeSize>
 <ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="user id" id="A9410E6A-08FF-9B99-A382-1173E18FA6D3">
-<createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:36:19 UTC</createdTime>
-<generatorID>8292D40C-77A0-DF6A-D616-271FC0C2B297</generatorID>
-<ownerDesignName>ModelER</ownerDesignName>
-<engineerTo>
-<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
-</engineerTo>
-<referedAttribute>1771F16E-9168-C463-EBF0-588A3E18755A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="series id" id="CF50DB9E-D041-BD0E-6F24-A3854C8C6A56">
-<createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:36:42 UTC</createdTime>
-<generatorID>4CDF7360-10DD-6F34-E2F0-53EC7448C910</generatorID>
-<ownerDesignName>ModelER</ownerDesignName>
-<engineerTo>
-<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
-</engineerTo>
-<referedAttribute>CB7E69F0-87EF-E865-B88D-299B759F871C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rating" id="7C61E6F1-DBDF-7892-7304-76A3564A5B7D">
-<createdBy>HOME</createdBy>
-<createdTime>2022-05-20 09:57:51 UTC</createdTime>
-<generatorID>EDA970E1-9346-642E-E273-FABA3C9DEE1C</generatorID>
-<ownerDesignName>ModelER</ownerDesignName>
-<engineerTo>
-<item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C8354E86-77D5-DC5E-BEB3-9F5A4CDE53DE" name="Series_reviews_PK">
+<identifier id="BA72D59A-2F75-AFA5-F28D-E6E818C26588" name="Actors reviews PK">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:34:52 UTC</createdTime>
+<createdTime>2022-05-20 09:57:51 UTC</createdTime>
+<generatorID>58531B8D-01B9-FB3B-71F6-8A58179B5B65</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <engineerTo>
 <item key="CA3FBD46-D09B-9364-B162-279D3655599F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C6E46C75-3BA5-7CC8-0CFF-92AA98AA369E</attributeRef>
+<attributeRef>0987A69E-0305-8B4C-201E-58FE4646A762</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

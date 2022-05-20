@@ -24,7 +24,6 @@
 <createdTime>2022-05-17 12:41:10 UTC</createdTime>
 <generatorID>88D26AAF-16B8-B17E-E0DD-B48405572CB3</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -36,7 +35,6 @@
 <createdBy>HOME</createdBy>
 <createdTime>2022-05-17 12:51:16 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -55,6 +53,29 @@
 <dataTypePrecision>2</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="6F2AF506-078B-F1ED-C5A4-D6475486DF09">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:53:32 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex" id="E95681A4-4314-2225-0C7D-B659DD263B4D">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:53:57 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

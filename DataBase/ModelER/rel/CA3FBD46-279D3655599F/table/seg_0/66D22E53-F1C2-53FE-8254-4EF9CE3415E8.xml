@@ -19,18 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="82AA3CD9-02F0-F0C2-1437-8D58453DE599">
-<createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>555A4B85-7821-9ED8-AC31-3BF820351604</generatorID>
-<ownerDesignName>ModelER</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="series_id" id="D401E869-14F7-5D74-FA7A-E549F8C1133A">
 <createdBy>HOME</createdBy>
 <createdTime>2022-05-17 12:41:10 UTC</createdTime>
@@ -45,6 +33,40 @@
 <associations>
 <colAssociation fkAssociation="5AA04A1C-6A09-23E4-A3F7-2F2A78515177" referredColumn="425B055A-A425-1841-B58F-DB5B3F8E599F"/>
 </associations>
+</Column>
+<Column name="episodes" id="E9B2197B-597B-9A5B-AF4A-0AA303E5948D">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:47:54 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="82AA3CD9-02F0-F0C2-1437-8D58453DE599">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>555A4B85-7821-9ED8-AC31-3BF820351604</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="ADD16B08-6283-E46A-57E1-16EE089A766A">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:48:24 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

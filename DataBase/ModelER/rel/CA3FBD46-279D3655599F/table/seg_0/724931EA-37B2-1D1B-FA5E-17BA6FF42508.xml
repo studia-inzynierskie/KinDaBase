@@ -19,18 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="08D9EF0C-0234-2095-E32D-C2D44B44D3A5">
-<createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>F983FD63-A5CE-7D3A-B3ED-B50D9888A6BC</generatorID>
-<ownerDesignName>ModelER</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="season_id" id="A15C5899-FE80-6539-4F26-CB2EF692A476">
 <createdBy>HOME</createdBy>
 <createdTime>2022-05-17 12:41:10 UTC</createdTime>
@@ -45,6 +33,30 @@
 <associations>
 <colAssociation fkAssociation="051B4A28-49F5-9003-C452-E49E7692EE60" referredColumn="3B70AA00-6EE0-894A-335A-7A9DFDB340A1"/>
 </associations>
+</Column>
+<Column name="name" id="08D9EF0C-0234-2095-E32D-C2D44B44D3A5">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-17 12:41:10 UTC</createdTime>
+<generatorID>F983FD63-A5CE-7D3A-B3ED-B50D9888A6BC</generatorID>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="36606C40-2C8B-597C-2671-FA66D44A4A97">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:48:51 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

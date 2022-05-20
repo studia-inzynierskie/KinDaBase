@@ -1,17 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5504C742-A4EC-2C39-42DD-2FFB29DE8C87" name="Movies_reviews">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07B707D0-AC8F-C012-9DAD-FC733D921B8E" name="Actors_reviews">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>687D18B7-9B5D-621E-5355-D20CADBBD208</generatorID>
+<createdTime>2022-05-20 09:31:59 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="movie_review_id" id="F44445B2-8674-15B0-335B-ABEB35307C87">
+<Column name="actor_review_id" id="E069F795-43EB-278C-3012-DE8F2A9FA38A">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>35270296-4B23-98DF-3E64-2DE0E7A3EBC9</generatorID>
+<createdTime>2022-05-20 09:32:22 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,39 +18,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="user_id" id="A7E0E484-1B7E-6DCC-1AB9-FF468CD9F1AE">
+<Column name="actor_id" id="56BAA58E-BE88-F7A0-981E-90920F4F756A">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>6A645620-945D-3AA5-502E-5A0003B8AECD</generatorID>
+<createdTime>2022-05-20 09:32:57 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8820C314-A922-282F-BF9E-BBB42666D8E9" referredColumn="22393A01-7373-63C9-9CF7-FAA201C72AAE"/>
+<colAssociation fkAssociation="1E97C283-C396-B9AB-3E89-269D20533EB6" referredColumn="218809A8-207B-417A-FEFF-DB81F4C56B43"/>
 </associations>
 </Column>
-<Column name="movie_id" id="76C5A1FE-F117-9FF2-E3A1-FB86167160F2">
+<Column name="user_id" id="9B885065-5AF3-B140-BD8F-323D6BFEBCBC">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>4EE39EB0-D34C-7E7D-334C-EEE57761A5B8</generatorID>
+<createdTime>2022-05-20 09:33:17 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="71D28CA0-52C4-F2EE-8309-871E4F3489C6" referredColumn="628ADE76-5687-B340-8864-23E0C0EE2624"/>
+<colAssociation fkAssociation="FE5D80F1-006C-2E1C-BD55-3DD2DBFD77A5" referredColumn="22393A01-7373-63C9-9CF7-FAA201C72AAE"/>
 </associations>
 </Column>
-<Column name="rating" id="FB32D814-81EF-2151-7121-D18CF78AA87F">
+<Column name="rating" id="18AD0F6E-2C64-3B61-FF9B-D20DBF4AD155">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-20 09:28:23 UTC</createdTime>
+<createdTime>2022-05-20 09:37:01 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,10 +54,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="description" id="1C2819C5-97E1-92F0-78E9-918E67573745">
+<Column name="description" id="322631CC-88EB-9F77-E6A2-E7A1B129E403">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>8B74CEA0-C54D-34BE-293D-AD4EBC4AF6B3</generatorID>
+<createdTime>2022-05-20 09:37:16 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,38 +68,37 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0D1881DC-3952-F8A7-AB16-D17B832D4E38" name="Movies_reviews_PK">
+<ind_PK_UK id="58531B8D-01B9-FB3B-71F6-8A58179B5B65" name="Actors_reviews_PK">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>726F863A-77E2-5DF5-5F6A-8CF698CC1405</generatorID>
+<createdTime>2022-05-20 09:32:43 UTC</createdTime>
 <ownerDesignName>ModelER</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F44445B2-8674-15B0-335B-ABEB35307C87"/>
+<colUsage columnID="E069F795-43EB-278C-3012-DE8F2A9FA38A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C9AD8AA0-A5E3-59F4-423B-60D26FC1F6AD" name="Movies_reviews_Users_FK">
+<ind_PK_UK id="258FF1E2-9A9F-D1CA-E6E8-8A1671E7DF2D" name="actor_id">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>E54A6881-E033-23F2-38E7-9E3E6E8B6325</generatorID>
+<createdTime>2022-05-20 09:34:12 UTC</createdTime>
+<generatorID>F4F59274-6789-D459-8DA8-26AA5CCBCF8C</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A7E0E484-1B7E-6DCC-1AB9-FF468CD9F1AE"/>
+<colUsage columnID="56BAA58E-BE88-F7A0-981E-90920F4F756A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="372F98BC-1F8B-13A7-5589-035312919740" name="Movies_reviews_Movies_FK">
+<ind_PK_UK id="6768F511-575B-1E56-EACE-817CA516B909" name="Actors_reviews_Users_FK">
 <createdBy>HOME</createdBy>
-<createdTime>2022-05-17 12:41:10 UTC</createdTime>
-<generatorID>9FA3A04D-E6F7-22C9-5420-2C82E003A312</generatorID>
+<createdTime>2022-05-20 09:36:03 UTC</createdTime>
+<generatorID>CF000D34-D741-C89B-DBAD-416696362997</generatorID>
 <ownerDesignName>ModelER</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="76C5A1FE-F117-9FF2-E3A1-FB86167160F2"/>
+<colUsage columnID="9B885065-5AF3-B140-BD8F-323D6BFEBCBC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
