@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>CF000D34-D741-C89B-DBAD-416696362997</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>scores</nameOnSource>
+<nameOnTarget>are scored</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
