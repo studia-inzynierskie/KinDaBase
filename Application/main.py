@@ -1,13 +1,6 @@
-import cx_Oracle
-from db_config import user, password
+from data_base import FilmWeb
+import db_config
 
-my_query = "SELECT * FROM employees WHERE employee_id=103"
-
-con = cx_Oracle.connect(f'{user}/{password}@//ora4.ii.pw.edu.pl:1521/pdb1.ii.pw.edu.pl')
-print("Database version:", con.version)
-cur = con.cursor()
-cur.execute(my_query)
-for result in cur:
-    print(result)
-cur.close()
-con.close()
+if __name__ == '__main__':
+    filmweb = FilmWeb(db_config.user, db_config.password)
+    filmweb.menu()
