@@ -84,6 +84,29 @@ begin
 end;
 /
 
+CREATE OR REPLACE PROCEDURE add_movie_review (
+        p_user_id       users.user_id%TYPE, 
+        p_movie_id      movies.movie_id%TYPE, 
+        p_rating        movies_reviews.rating%TYPE,
+        p_description   movies_reviews.description%TYPE) AS
+BEGIN 
+    INSERT INTO movies_reviews (user_id, movie_id, rating, description)
+    VALUES (p_user_id, p_movie_id, p_rating, p_description);
+END;
+/
+
+CREATE OR REPLACE PROCEDURE add_actor (
+        p_name          actors.name%TYPE, 
+        p_surname       actors.surname%TYPE, 
+        p_rating        actors.rating%TYPE,
+        p_birth_date    actors.birth_date%TYPE,
+        p_sex           actors.sex%TYPE) AS
+BEGIN 
+    INSERT INTO actors (name, surname, rating, birth_date, sex)
+    VALUES (p_name, p_surname, p_rating, p_birth_date, p_sex);
+END;
+/
+
 ----- wyzwalacze -----
 -- oblicznie średniej ocen aktorów
 create or replace trigger tg_update_actors_rating
