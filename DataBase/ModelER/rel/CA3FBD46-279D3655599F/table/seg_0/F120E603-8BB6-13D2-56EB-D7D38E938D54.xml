@@ -58,7 +58,7 @@
 <colUsage columnID="BD69B030-3EB5-50C0-18AF-E06201172505"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BF8D8A50-36AB-2E18-93BF-11C3FE81E034" name="Movies_categories_Categories_FK">
+<ind_PK_UK id="BF8D8A50-36AB-2E18-93BF-11C3FE81E034" name="Movies_Categories_FK">
 <createdBy>HOME</createdBy>
 <createdTime>2022-05-17 12:41:10 UTC</createdTime>
 <generatorID>CF862873-AD00-1DF6-997A-DFBF4D33AEA0</generatorID>
@@ -69,7 +69,7 @@
 <colUsage columnID="1B0F0834-7479-BD63-5BDD-B13D83F0177F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6F6689D2-F10B-CE4A-378D-DCE7E985BB7C" name="Movies_categories_Movies_FK">
+<ind_PK_UK id="6F6689D2-F10B-CE4A-378D-DCE7E985BB7C" name="Movies_Movies_FK">
 <createdBy>HOME</createdBy>
 <createdTime>2022-05-17 12:41:10 UTC</createdTime>
 <generatorID>CF862873-AD00-1DF6-997A-DFBF4D33AEA0</generatorID>

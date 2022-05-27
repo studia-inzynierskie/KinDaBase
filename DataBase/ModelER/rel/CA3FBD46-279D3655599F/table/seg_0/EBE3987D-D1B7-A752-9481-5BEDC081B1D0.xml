@@ -31,6 +31,16 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="seasons" id="D5ED5301-1A53-3EFB-E59D-791F59314EF5">
+<createdBy>HOME</createdBy>
+<createdTime>2022-05-20 09:44:46 UTC</createdTime>
+<ownerDesignName>ModelER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="rating" id="BE60CDBB-6D4F-59F7-359D-548FBA79AFA8">
 <createdBy>HOME</createdBy>
 <createdTime>2022-05-20 09:44:11 UTC</createdTime>
@@ -88,16 +98,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="seasons" id="D5ED5301-1A53-3EFB-E59D-791F59314EF5">
-<createdBy>HOME</createdBy>
-<createdTime>2022-05-20 09:44:46 UTC</createdTime>
-<ownerDesignName>ModelER</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
