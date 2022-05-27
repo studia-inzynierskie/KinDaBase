@@ -15,3 +15,12 @@ SELECT * FROM series WHERE series_id = 3;
 --5. Add actor
 INSERT INTO actors (name, surname, rating, birth_date, sex)
     VALUES ('Alycia', 'Debnam-Carey', 7.8, to_date('07/20/1993', 'MM/DD/RRRR'), 'K');
+
+--6 show feminization rate
+select calc_feminization_rate(1) from dual;
+
+--7 show most active user
+select name from users where user_id = most_active_user();
+
+--8 show highest ranked actor
+select name || ' ' || surname from actors where actor_id = highest_ranked_actor(1);

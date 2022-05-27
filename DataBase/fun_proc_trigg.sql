@@ -13,6 +13,7 @@ begin
     return v_actor_id;
 end;
 /
+
 --- najbardziej aktywny użytkownik (posiadający najwięcej recenzji)
 create or replace function most_active_user
 return number
@@ -41,9 +42,9 @@ begin
 end;
 /
 
------ procedury -----
---- wypisz współczynnik feminizacji wśród aktorów w danym filmie
-create or replace procedure show_feminization_rate (p_movie_id movies.movie_id%type)
+--- współczynnik feminizacji wśród aktorów w danym filmie
+create or replace function calc_feminization_rate (p_movie_id movies.movie_id%type)
+return number
 as
 v_fem_rate number;
 v_f_count number;
@@ -59,12 +60,14 @@ begin
     
     if v_m_count != 0 then
         v_fem_rate := v_f_count/v_m_count;
-        dbms_output.put_line ('Współczynnik feminizacji wynosi: ' || v_fem_rate);
+        return v_fem_rate;
     else
-        dbms_output.put_line ('W tym filmie nie grają żadni mężczyźni.');
+        return null;
     end if;
 end;
 /
+
+----- procedury -----
 --- wypisz aktorów grających w najlepiej ocenianym filmie
 create or replace procedure show_actors (p_movie_id movies.movie_id%type)
 as
@@ -107,6 +110,36 @@ BEGIN
 END;
 /
 
+-- dodaj nowy sezon
+create or replace procedure add_season (
+        p_series_id series.series_id%type, 
+        p_episodes seasons.episodes%type, 
+        p_name seasons.name%type,
+        p_desc seasons.description%type)
+as
+    v_seasons series.seasons%type;
+begin
+    select seasons into v_seasons from series where series_id = p_series_id;
+    v_seasons := v_seasons + 1;
+    insert into seasons values (null, p_series_id, p_episodes, p_name, p_desc);
+    update series set seasons = v_seasons where series_id = p_series_id;
+end;
+/
+
+-- dodaj nowy odcinek
+create or replace procedure add_episode (
+        p_season_id seasons.season_id%type, 
+        p_name episodes.name%type,
+        p_desc episodes.description%type)
+as
+    v_episodes seasons.episodes%type;
+begin
+    select episodes into v_episodes from seasons where season_id = p_season_id;
+    v_episodes := v_episodes + 1;
+    insert into episodes values (null, p_season_id, p_name, p_desc);
+    update seasons set episodes = v_episodes where season_id = p_season_id;
+end;
+/
 ----- wyzwalacze -----
 -- oblicznie średniej ocen aktorów
 create or replace trigger tg_update_actors_rating
@@ -121,6 +154,7 @@ begin
     end loop;
 end;
 /
+
 -- oblicznie średniej ocen filmów
 create or replace trigger tg_update_movies_rating
 after insert or update or delete on movies_reviews
@@ -148,6 +182,3 @@ begin
     end loop;
 end;
 /
-
---update actors_reviews set rating = 7 where actor_review_id = 1;
-
