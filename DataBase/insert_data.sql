@@ -32,37 +32,6 @@ VALUES (10, 'Cezary', '¯ak', 9.78, to_date('08/15/1976', 'MM/DD/RRRR'), 'M');
 
 
 --------------------------------------------------------------------------------
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (1,9,1,2.5,'S³aby');
---Row 2
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (2,3,4,1.4,'Bardzo s³aby');
---Row 3
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (3,2,6,8.4,'Bardzo dobry');
---Row 4
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (4,5,2,5.6,'taki sobie');
---Row 5
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (5,2,7,5,'mo¿e byæ');
---Row 6
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (6,3,6,7,'Udzie a nawet ciekawy');
---Row 7
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (7,8,1,9.1,'Najlepszy jaki widzia³em');
---Row 8
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (8,9,2,9,'Super ');
---Row 9
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (9,2,4,1.2,'Dnooooo');
---Row 10
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (10,8,8,3,'S³aby');
---Row 11
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (11,7,8,4,'mo¿e byæ');
---Row 12
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (12,7,4,5.8,'taki sobie');
---Row 13
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (13,5,2,5.1,'cienko cienko');
---Row 14
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (14,2,1,2.6,'Nie podoba mi siê');
---Row 15
-INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (15,9,6,3.7,'nie polecam');
-
----------------------------------------------------------------------------------------------------------------------
 SET DEFINE OFF
 
 INSERT INTO CATEGORIES (CATEGORY_ID, NAME) 
@@ -150,34 +119,34 @@ VALUES (10, 'Shrek', 7.8, to_date('04/22/2001', 'MM/DD/RRRR'), 'By odzyskaæ swój
 SET DEFINE OFF
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (1, 'Gra o tron', 8.8, to_date('2011', 'Day, Month, RRRR'), to_date('2020', 'Day, Month, RRRR'), 'Adaptacja sagi George''a R.R. Martina. W królestwie Westeros walka o w³adzê, spiski oraz zbrodnie s¹ na porz¹dku dziennym.', 'USA', 8);
+VALUES (1, 'Gra o tron', 8.8, to_date('2011', 'RRRR'), to_date('2020', 'RRRR'), 'Adaptacja sagi George''a R.R. Martina. W królestwie Westeros walka o w³adzê, spiski oraz zbrodnie s¹ na porz¹dku dziennym.', 'USA', 8);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (2, 'Dr House', 8.2, to_date('2004', 'Day, Month, RRRR'), to_date('2012', 'Day, Month, RRRR'), 'Grupa lekarzy na czele z charyzmatycznym, acz aspo³ecznym doktorem House''em diagnozuje nietypowe choroby, niejednokrotnie ratuj¹c ¿ycie pacjentom.', 'USA', 8);
+VALUES (2, 'Dr House', 8.2, to_date('2004', 'RRRR'), to_date('2012', 'RRRR'), 'Grupa lekarzy na czele z charyzmatycznym, acz aspo³ecznym doktorem House''em diagnozuje nietypowe choroby, niejednokrotnie ratuj¹c ¿ycie pacjentom.', 'USA', 8);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (3, 'Breaking Bad', 8.8, to_date('2008', 'Day, Month, RRRR'), to_date('2013', 'Day, Month, RRRR'), 'Gdy nauczyciel chemii dowiaduje siê, ¿e ma raka, postanawia rozpocz¹æ produkcjê metamfetaminy, by finansowo zabezpieczyæ swoj¹ rodzinê. ', 'USA', 5);
+VALUES (3, 'Breaking Bad', 8.8, to_date('2008', 'RRRR'), to_date('2013', 'RRRR'), 'Gdy nauczyciel chemii dowiaduje siê, ¿e ma raka, postanawia rozpocz¹æ produkcjê metamfetaminy, by finansowo zabezpieczyæ swoj¹ rodzinê. ', 'USA', 5);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (4, 'Przyjaciele', 8.3, to_date('1994', 'Day, Month, RRRR'), to_date('2004', 'Day, Month, RRRR'), 'Losy szóstki przyjació³, którzy mieszkaj¹ i pracuj¹ w Nowym Jorku.', 'USA', 10);
+VALUES (4, 'Przyjaciele', 8.3, to_date('1994', 'RRRR'), to_date('2004', 'RRRR'), 'Losy szóstki przyjació³, którzy mieszkaj¹ i pracuj¹ w Nowym Jorku.', 'USA', 10);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (5, 'Sherlock', 8.6, to_date('2010', 'Day, Month, RRRR'), to_date('2017', 'Day, Month, RRRR'), 'John Watson jest lekarzem wojskowym, który niedawno wróci³ z wojny. Gdy poznaje genialnego detektywa Sherlocka Holmesa, zaczyna pomagaæ mu w rozwi¹zywaniu zagadek kryminalnych.', 'Wielka Brytania', 4);
+VALUES (5, 'Sherlock', 8.6, to_date('2010', 'RRRR'), to_date('2017', 'RRRR'), 'John Watson jest lekarzem wojskowym, który niedawno wróci³ z wojny. Gdy poznaje genialnego detektywa Sherlocka Holmesa, zaczyna pomagaæ mu w rozwi¹zywaniu zagadek kryminalnych.', 'Wielka Brytania', 4);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (6, 'Stranger Things', 8.3, to_date('2016', 'Day, Month, RRRR'), to_date('2022', 'Day, Month, RRRR'), 'Podczas powrotu do domu znika dwunastoletni Will Byers. Zaginiêcie ch³opca jest pocz¹tkiem dziwnych i niebezpiecznych wydarzeñ trapi¹cych prowincjonalne miasteczko. ', 'USA', 4);
+VALUES (6, 'Stranger Things', 8.3, to_date('2016', 'RRRR'), to_date('2022', 'RRRR'), 'Podczas powrotu do domu znika dwunastoletni Will Byers. Zaginiêcie ch³opca jest pocz¹tkiem dziwnych i niebezpiecznych wydarzeñ trapi¹cych prowincjonalne miasteczko. ', 'USA', 4);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (7, 'Dexter', 8.2, to_date('2006', 'Day, Month, RRRR'), to_date('2013', 'Day, Month, RRRR'), 'Dexter prowadzi podwójne ¿ycie. Za dnia jest cenionym specjalist¹ ds. krwi w departamencie policji, a noc¹ zabija z³oczyñców, którzy wymykaj¹ siê organom sprawiedliwoœci.', 'USA', 8);
+VALUES (7, 'Dexter', 8.2, to_date('2006', 'RRRR'), to_date('2013', 'RRRR'), 'Dexter prowadzi podwójne ¿ycie. Za dnia jest cenionym specjalist¹ ds. krwi w departamencie policji, a noc¹ zabija z³oczyñców, którzy wymykaj¹ siê organom sprawiedliwoœci.', 'USA', 8);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (8, 'Detektyw', 8.5, to_date('2014', 'Day, Month, RRRR'), to_date('2022', 'Day, Month, RRRR'), 'Dwaj detektywi z Luizjany, Rust i Martin, pracuj¹ nad spraw¹ morderstw, która siêga 1995 roku. ', 'USA', 3);
+VALUES (8, 'Detektyw', 8.5, to_date('2014', 'RRRR'), to_date('2022', 'RRRR'), 'Dwaj detektywi z Luizjany, Rust i Martin, pracuj¹ nad spraw¹ morderstw, która siêga 1995 roku. ', 'USA', 3);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (9, 'The Walking Dead', 7.8, to_date('2010', 'Day, Month, RRRR'), to_date('2022', 'Day, Month, RRRR'), 'Oficer policji Rick Grimes przewodzi grupie ocala³ych w œwiecie opanowanym przez zombi. ', 'USA', 11);
+VALUES (9, 'The Walking Dead', 7.8, to_date('2010', 'RRRR'), to_date('2022', 'RRRR'), 'Oficer policji Rick Grimes przewodzi grupie ocala³ych w œwiecie opanowanym przez zombi. ', 'USA', 11);
 
 INSERT INTO SERIES (SERIES_ID, NAME, RATING, STARTS_DATE, ENDS_DATE, DESCRIPTION, COUNTRY, SEASONS) 
-VALUES (10, 'House of Cards', 8.4, to_date('2013', 'Day, Month, RRRR'), to_date('2018', 'Day, Month, RRRR'), 'Francis Underwood jest bezwzglêdnym politykiem próbuj¹cym siê zemœciæ na prezydencie, który pomin¹³ go przy obsadzeniu stanowiska sekretarza stanu.', 'USA', 6);
+VALUES (10, 'House of Cards', 8.4, to_date('2013', 'RRRR'), to_date('2018', 'RRRR'), 'Francis Underwood jest bezwzglêdnym politykiem próbuj¹cym siê zemœciæ na prezydencie, który pomin¹³ go przy obsadzeniu stanowiska sekretarza stanu.', 'USA', 6);
 
 --------------------------------------------------------------------------------
 
@@ -211,3 +180,35 @@ VALUES (9, 'lpaw', 'nj3r-pd', 'lpaw@pw.edu.pl');
 INSERT INTO USERS (USER_ID, NAME, PASSWORD, EMAIL)
 VALUES (10, 'jkrupa', 'ysh3BB', 'jkrupa@pw.edu.pl');
 -------------------------------------------------------------------------------
+
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (1,9,1,2.5,'S³aby');
+--Row 2
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (2,3,4,1.4,'Bardzo s³aby');
+--Row 3
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (3,2,6,8.4,'Bardzo dobry');
+--Row 4
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (4,5,2,5.6,'taki sobie');
+--Row 5
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (5,2,7,5,'mo¿e byæ');
+--Row 6
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (6,3,6,7,'Udzie a nawet ciekawy');
+--Row 7
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (7,8,1,9.1,'Najlepszy jaki widzia³em');
+--Row 8
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (8,9,2,9,'Super ');
+--Row 9
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (9,2,4,1.2,'Dnooooo');
+--Row 10
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (10,8,8,3,'S³aby');
+--Row 11
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (11,7,8,4,'mo¿e byæ');
+--Row 12
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (12,7,4,5.8,'taki sobie');
+--Row 13
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (13,5,2,5.1,'cienko cienko');
+--Row 14
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (14,2,1,2.6,'Nie podoba mi siê');
+--Row 15
+INSERT INTO ACTORS_REVIEWS (ACTOR_REVIEW_ID, ACTOR_ID, USER_ID, RATING, DESCRIPTION) VALUES (15,9,6,3.7,'nie polecam');
+
+---------------------------------------------------------------------------------------------------------------------

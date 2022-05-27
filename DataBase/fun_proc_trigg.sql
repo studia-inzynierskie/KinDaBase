@@ -89,7 +89,7 @@ end;
 create or replace trigger tg_update_actors_rating
 after insert or update or delete on actors_reviews
 declare
-    v_rating number(38, 2);
+    v_rating number(4, 2);
 begin
     for r_actor in (select * from actors)
     loop
@@ -102,7 +102,7 @@ end;
 create or replace trigger tg_update_movies_rating
 after insert or update or delete on movies_reviews
 declare
-    v_rating number(2,2);
+    v_rating number(4,2);
 begin
     for r_movie in (select * from movies)
     loop
@@ -116,7 +116,7 @@ end;
 create or replace trigger tg_update_series_rating
 after insert or update or delete on series_reviews
 declare
-    v_rating number(2,2);
+    v_rating number(4,2);
 begin
     for r_series in (select * from series)
     loop
@@ -126,5 +126,5 @@ begin
 end;
 /
 
-
+--update actors_reviews set rating = 7 where actor_review_id = 1;
 
