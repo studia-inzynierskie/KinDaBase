@@ -10,10 +10,10 @@ class FilmWeb():
                           "2 - show all movies",
                           "3 - show movie rating",
                           "4 - show series informations",
-                          "5 - show actors playing in series",
-                          "6 - add actor",
+                          "5 - add actor",
+                          "6 - show actors playing in series",
                           "7 - show where actor played",
-                          "8 - show best rated actor",
+                          "8 - show best rated actor in film",
                           "9 - show movies and series with category",
                           "0 - nothing. Bye\n\n"]
 
@@ -55,19 +55,20 @@ class FilmWeb():
 
     def show_series_information(self):
         pass
-    
+
     def show_actors_in_series(self):
         pass
-    
+
     def add_actor(self):
         pass
-    
+
     def show_where_actor_played(self):
         pass
-    
-    def show_best_rated_actor(self):
+
+    def show_best_rated_actor_in_film(self):
+        # wykorzystamy funkcje.
         pass
-    
+
     def show_movies_series_with_category(self):
         pass
 
