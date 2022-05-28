@@ -22,7 +22,6 @@ class FilmWeb():
         self.connection.close()
 
     def _show(self, command):
-        print(command)
         cursor = self.connection.cursor()
         cursor.execute(command)
         for result in cursor:
@@ -68,17 +67,17 @@ class FilmWeb():
 
     def show_series_episodes(self):
         series_id = int(input("Series id (int): "))
-        command = f"" #to do
+        command = f"SELECT ep.name FROM series ser RIGHT JOIN seasons sea ON(ser.series_id=sea.series_id) RIGHT JOIN episodes ep ON(sea.season_id=ep.season_id) WHERE ser.series_id = {series_id}" #to do
         self._show(command)
 
     def show_series_reviews(self):
         series_id = int(input("Series id (int): "))
-        command = f"" #to do
+        command = f"SELECT sr.rating, sr.description FROM series s JOIN series_reviews sr ON(s.series_id=sr.series_id) WHERE s.series_id = {series_id}" #to do
         self._show(command)
 
     def show_actor_reviews(self):
-        series_id = int(input("Actor id (int): "))
-        command = f"" #to do
+        actor_id = int(input("Actor id (int): "))
+        command = f"SELECT ar.rating, ar.description FROM actors a JOIN actors_reviews ar ON(a.actor_id=ar.actor_id) WHERE a.actor_id = {actor_id}" #to do
         self._show(command)
 
     def add_actor(self):
