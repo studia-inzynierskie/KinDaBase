@@ -46,11 +46,11 @@ class FilmWeb():
             elif self.option == 6:
                 self.add_actor()
             elif self.option == 7:
-                self.show_where_actor_played()
+                self.show_feminization_rate()
             elif self.option == 8:
-                self.show_best_rated_actor()
+                self.show_most_active_user()
             elif self.option == 9:
-                self.show_movies_series_with_category()
+                self.show_highest_ranked_actor()
 
     def print_menu(self):
         for op in self.menu_list:
@@ -83,15 +83,16 @@ class FilmWeb():
     def add_actor(self):
         pass
 
-    def show_where_actor_played(self):
-        pass
+    def show_feminization_rate(self):
+        movie_id = int(input("Movie id (int): "))
+        command = f"select calc_feminization_rate({movie_id}) from dual"
+        self._show(command)
 
-    def show_best_rated_actor_in_film(self):
-        # wykorzystamy funkcje.
-        pass
+    def show_most_active_user(self):
+        command = f"select name from users where user_id = most_active_user()"
+        self._show(command)
 
-    def show_movies_series_with_category(self):
-        pass
-
-
-
+    def show_highest_ranked_actor(self):
+        movie_id = int(input("Movie id (int): "))
+        command = f"select name || ' ' || surname from actors where actor_id = highest_ranked_actor({movie_id})"
+        self._show(command)
