@@ -9,6 +9,8 @@
 </engineerTo>
 <sourcePk>F4F59274-6789-D459-8DA8-26AA5CCBCF8C</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>are scored</nameOnSource>
+<nameOnTarget>scores</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

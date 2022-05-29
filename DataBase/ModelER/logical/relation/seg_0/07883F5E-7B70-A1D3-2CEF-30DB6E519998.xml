@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>B567D435-E1AA-3B10-615F-ED707B92FE59</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>have</nameOnSource>
+<nameOnTarget>is a part of</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

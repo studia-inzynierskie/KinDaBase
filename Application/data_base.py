@@ -12,17 +12,16 @@ class FilmWeb():
                           "3 - show series episodes",
                           "4 - show series reviews",
                           "5 - show actor reviews",
-                          "6 - show actors playing in series",
-                          "7 - show where actor played",
-                          "8 - show best rated actor in film",
-                          "9 - show movies and series with category",
+                          "6 - show feminization rate",
+                          "7 - show most active user",
+                          "8 - show highest ranked actor",
+                          "9 - show custom query",
                           "0 - nothing. Bye"]
 
     def __del__(self):
         self.connection.close()
 
     def _show(self, command):
-        print(command)
         cursor = self.connection.cursor()
         cursor.execute(command)
         for result in cursor:
@@ -45,13 +44,13 @@ class FilmWeb():
             elif self.option == 5:
                 self.show_actor_reviews()
             elif self.option == 6:
-                self.add_actor()
-            elif self.option == 7:
                 self.show_feminization_rate()
-            elif self.option == 8:
+            elif self.option == 7:
                 self.show_most_active_user()
-            elif self.option == 9:
+            elif self.option == 8:
                 self.show_highest_ranked_actor()
+            elif self.option == 9:
+                self.show_custom_query()
 
     def print_menu(self):
         for op in self.menu_list:
@@ -68,21 +67,18 @@ class FilmWeb():
 
     def show_series_episodes(self):
         series_id = int(input("Series id (int): "))
-        command = f"" #to do
+        command = f"SELECT ep.name FROM series ser RIGHT JOIN seasons sea ON(ser.series_id=sea.series_id) RIGHT JOIN episodes ep ON(sea.season_id=ep.season_id) WHERE ser.series_id = {series_id}"
         self._show(command)
 
     def show_series_reviews(self):
         series_id = int(input("Series id (int): "))
-        command = f"" #to do
+        command = f"SELECT sr.rating, sr.description FROM series s JOIN series_reviews sr ON(s.series_id=sr.series_id) WHERE s.series_id = {series_id}"
         self._show(command)
 
     def show_actor_reviews(self):
-        series_id = int(input("Actor id (int): "))
-        command = f"" #to do
+        actor_id = int(input("Actor id (int): "))
+        command = f"SELECT ar.rating, ar.description FROM actors a JOIN actors_reviews ar ON(a.actor_id=ar.actor_id) WHERE a.actor_id = {actor_id}"
         self._show(command)
-
-    def add_actor(self):
-        pass
 
     def show_feminization_rate(self):
         movie_id = int(input("Movie id (int): "))
@@ -96,4 +92,8 @@ class FilmWeb():
     def show_highest_ranked_actor(self):
         movie_id = int(input("Movie id (int): "))
         command = f"select name || ' ' || surname from actors where actor_id = highest_ranked_actor({movie_id})"
+        self._show(command)
+
+    def show_custom_query(self):
+        command = str(input("query: "))
         self._show(command)

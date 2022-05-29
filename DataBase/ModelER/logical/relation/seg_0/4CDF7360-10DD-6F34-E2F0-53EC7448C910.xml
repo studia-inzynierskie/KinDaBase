@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>1E20C0D8-B803-951B-D60B-7015BEE650D5</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>have</nameOnSource>
+<nameOnTarget>are haved</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

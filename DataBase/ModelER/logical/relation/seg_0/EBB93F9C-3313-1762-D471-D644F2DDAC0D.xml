@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>1E1B2EEB-A609-7A0B-33DF-5F5968A99F20</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>category_id</nameOnSource>
-<nameOnTarget>series_id</nameOnTarget>
+<nameOnSource>described by</nameOnSource>
+<nameOnTarget>described</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
